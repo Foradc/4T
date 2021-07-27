@@ -1,0 +1,38 @@
+/*
+*   Couleur du dashboard extrait du Logo de OpenStace
+*  Vert clair: #D0F2EF 
+*  Vert Sombre: #08594A
+*
+* By Terrance
+*/
+h1.brand {
+    background: #84BFB4 repeat-x top left;
+    border-bottom: 2px solid #D0F2EF;
+    }
+    
+    h1.brand a {
+    background: url(../img/4Itsec_logo_small.png) top left no-repeat;
+    }
+    
+    #splash .login {
+    background: #07735F url(../img/4Itsec_logo_medium.png) no-repeat center 35px;
+    }
+    
+    #splash .login .modal-header {
+    border-top: 1px solid #D0F2EF;
+    }
+    
+    .btn-primary {
+    background-image: none !important;
+    background-color: #07735F !important;
+    border: none !important;
+    box-shadow: none;
+    }
+    
+    .btn-primary:hover,
+    .btn-primary:active {
+    border: none;
+    box-shadow: none;
+    background-color: #D0F2EF !important;
+    text-decoration: none;
+    }
